@@ -1,0 +1,349 @@
+
+
+*{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+   
+    
+    
+}
+
+.container{
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+    box-shadow: 0 2px 3px #aaa;
+    max-width: 100%;
+    position:relative;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+
+.container .logo{
+    padding: 40px;
+    margin-left:60px;
+    flex-basis: 20%;
+
+}
+.container .menu{
+    flex-basis: 80%;
+    margin-left: 30%;
+
+}
+.container .menu ul{
+    display: flex;
+}
+.container .menu li{
+    padding: 20px;
+    list-style: none;
+
+}
+
+.container .menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.land-page{
+    background-image: url('/images/bg.jpg');
+    max-width: 100%;
+    height: 600px;
+    opacity:0.7;
+    background-color: rgba(0, 0, 0, 0.178);
+    position: relative;
+
+    
+   
+}
+
+.land-page .text {
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 22px;
+    color: white;
+    
+    
+   
+}
+.land-page .text  .btn{
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+
+}
+.land-page .text  .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+
+}
+
+.quote{
+   text-align: center;
+   padding: 60px;
+   font-size: 25px;
+   font-weight: bold;
+   height: auto;
+}
+
+.boxes{
+    display: flex;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.boxes .box-image1{
+
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 4px 3px gray;
+
+}
+
+
+.boxes .box-image2{
+    
+    border: 1px solid black;
+    margin-left:200px;
+    text-align: center;
+    box-shadow: 2px 4px 3px gray;
+
+
+}
+
+.boxes .box-image1 a , .box-image2 a{
+    color: blue;
+    text-decoration: none;
+}
+.boxes .box-image1 a:hover , .box-image2 a:hover{
+    color: black;
+}
+
+.container-image{
+    background-image: url('/images/spacex.jpg');
+    width: auto;
+    background-repeat: no-repeat;
+    background-position:left;
+    margin-left: 100px;
+    height:500px;
+    position: relative;
+    margin-bottom: 100px;
+
+    
+    
+}
+
+.container-image .content{
+    background-image: url('/images/greenbg.png');
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    height: autodc px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right:100px ;
+    padding: 60px;
+    color: white;
+
+
+}
+
+
+.container-image .content a{
+
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+
+
+}
+
+.container-image1{
+    
+    background-image: url('/images/pablo.jpg');
+    width: auto;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right: 100px;
+    height:500px;
+    position: relative;
+    
+}
+
+.container-image1 .content1{
+    background-image: url('/images/greenbg.png');
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    height: autodc px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-right:100px ;
+    padding: 60px;
+    color: white;
+    margin-left: 200px;
+
+
+}
+
+
+.container-image1 .content1 a{
+
+    border: 1px solid white;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+
+
+}
+
+.quote1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom:100px;
+
+}
+
+.quote1 a{
+    background-color: #6e3da9;
+    border: 1px solid black;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase0;
+    padding: 10px;
+    
+}
+
+.quote2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 70px;
+
+}
+
+.bottom-land{
+    border: 1px solid #6e3da9;
+    padding: 60px;
+    background-color: #6e3da9;
+    color: white;
+    max-width: 100%;
+    
+}
+
+.bottom-land a{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    max-width: 100%;
+    text-align: left;
+   
+    
+}
+
+.footer .links{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10%;
+    flex-basis: 25%;
+       
+}
+.footer .links a{
+    color: white;
+    text-decoration: none;
+
+}
+.footer .links .title{
+    color :gray;
+    
+}
+
+.contact{
+
+    margin-left:10%;
+    flex-basis: 25%;
+    
+}
+
+.contact .contact-title{
+    color: gray;
+    
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+.hours{
+    flex-basis: 25%;
+    margin-left: 10%;
+    
+}
+
+.hours .hours-title{
+    color: gray;
+    
+}
+.social{
+   padding: 50px;
+}
+.social img{
+    width: 20px;
+    flex-basis: 25%;
+    
+ 
+
+}
+
+.copyrights{
+    text-align: center;
+    flex-basis:25% ;
+    padding: 50px;
+}
+
+
+
+
+
+
